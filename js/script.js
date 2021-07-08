@@ -18,14 +18,12 @@ $(document).ready(function () {
 			{
 				breakpoint: 320,
 				settings: {
+					arrows: false,
 					slidesToShow: 1,
+					centerMode: true,
 				},
 			},
 		],
 	});
 });
 
-// document.querySelector(".button_mobile").onclick = function () {
-// 	this.classList.toggle("active");
-// 	document.querySelector("#header_top").classList.toggle("active");
-// };

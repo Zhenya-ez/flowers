@@ -7,7 +7,7 @@
 
 @media (max-width: 767px) {
 	.slider_wrapper {
-		padding: 50px 0 0 0;
+		padding: 0;
 	}
 }
 
@@ -55,6 +55,7 @@
 	background: url("../img/sl-arrow_l.svg") 0 0 / 100% no-repeat;
 	cursor: pointer;
 }
+
 .slider .slick-arrow.slick-next {
 	right: 0;
 	background: url("../img/sl-arrow_r.svg") 0 0 / 100% no-repeat;
