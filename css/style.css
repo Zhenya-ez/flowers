@@ -43,8 +43,7 @@ li {
 header {
 	width: 100%;
 	height: 669px;
-	background: url(../img/header.jpg) no-repeat;
-	background-position: center;
+	background: url(../img/header.jpg) center no-repeat;
 }
 
 #header_top {
@@ -303,14 +302,22 @@ ul:after {
 }
 
 .order {
-	background: url(../img/background.jpg) no-repeat;
-	background-position: center;
-	width: 1600px;
+	background: url(../img/background.jpg) center no-repeat;
+	width: 100%;
 	height: 558px;
-	margin: 0 auto;
 	margin-top: 49px;
 	display: flex;
 	align-items: center;
+}
+
+/* ? як забрати маржин */
+.wrapper_inputs {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: -340px;
 }
 
 .inputs {
@@ -318,7 +325,6 @@ ul:after {
 	height: 471px;
 	background-color: rgba(255, 253, 253, 0.5);
 	backdrop-filter: blur(10px);
-	margin-left: 215px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -481,16 +487,20 @@ footer {
 .hidden-menu-ticker:checked ~ .btn-menu {
 	right: 195px;
 }
+
 .hidden-menu-ticker:checked ~ .hidden-menu {
 	right: 0;
 }
+
 .hidden-menu-ticker:checked ~ .btn-menu span.first {
 	-webkit-transform: rotate(45deg);
 	top: 8px;
 }
+
 .hidden-menu-ticker:checked ~ .btn-menu span.second {
 	opacity: 0;
 }
+
 .hidden-menu-ticker:checked ~ .btn-menu span.third {
 	-webkit-transform: rotate(-45deg);
 	top: -8px;
