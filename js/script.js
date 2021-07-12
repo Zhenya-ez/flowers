@@ -6,6 +6,7 @@ $(document).ready(function () {
 		autoplay: false,
 		speed: 2000,
 		autoplaySpeed: 1000,
+		centerPadding: "15px",
 		responsive: [
 			{
 				breakpoint: 766,

@@ -344,8 +344,9 @@ margin-right: 55px;
 		width: 795px;
 	}
 
-	.slider_bottom .slider {
-		width: 795px;
+		.slider_bottom .slider {
+		width: 620px;
+		/* padding: 10px; */
 	}
 
 	.left_product .button_position,
