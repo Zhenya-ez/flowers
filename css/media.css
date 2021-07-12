@@ -109,18 +109,21 @@
 	}
 
 	.catalog {
-		width: 100%;
+	max-width: 738px;
+	max-height: 747px;
+	margin: 0 auto;
+	margin-bottom: 136px;
 	}
 
 	.wrapper_inputs {
-		height: 558px;
+		/* height: 558px; */
 		height: 100%;
 		margin: 40px 0 0 -200px;
 	}
 
 	.inputs {
-		width: 491px;
-		height: 471px;
+		min-width: 491px;
+		min-height: 471px;
 		background-color: rgba(255, 253, 253, 0.5);
 		backdrop-filter: blur(10px);
 		margin-left: 215px;
@@ -355,7 +358,7 @@
 	}
 
 	.order {
-		width: 100%;
+		width: 319px;
 		height: 641px;
 		background: url(../img/background_m.jpg) center no-repeat;
 		margin-top: 0;
@@ -375,12 +378,14 @@
 		width: 290px;
 		height: 514px;
 		margin: 50px 0 0 -200px;
+		justify-content: flex-start;
 	}
 
 	.inputs {
 		width: 290px;
 		height: 514px;
-		margin-left: 215px;
+		margin-left: 223px;
+		padding: 10px;
 	}
 
 	.inputs p {
