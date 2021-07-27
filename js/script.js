@@ -3,28 +3,24 @@ $(document).ready(function () {
 		arrows: true,
 		dots: true,
 		slidesToShow: 3,
-		autoplay: false,
-		speed: 2000,
+		autoplay: true,
+		speed: 1000,
 		autoplaySpeed: 1000,
-		centerPadding: "15px",
 		responsive: [
 			{
-				breakpoint: 766,
+				breakpoint: 768,
 				settings: {
-					arrows: false,
 					slidesToShow: 2,
-					centerMode: true,
+					arrows: false,
 				},
 			},
 			{
-				breakpoint: 320,
+				breakpoint: 550,
 				settings: {
-					arrows: false,
 					slidesToShow: 1,
-					centerMode: true,
+					arrows: false,
 				},
 			},
 		],
 	});
 });
-

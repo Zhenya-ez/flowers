@@ -1,14 +1,14 @@
-.slider_wrapper {
+.slider_wrapper{
 	height: 100%;
 	max-width: 1350px;
 	padding: 50px;
 	display: flex;
-	justify-content: center;
+	justify-content:center;
 	align-items: center;
 	margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px){
 	.slider_wrapper {
 		padding: 50px 10px;
 	}
@@ -17,7 +17,7 @@
 /* Основные стили */
 
 /* Слайдер */
-.slick-slider {
+.slick-slider{
 	min-width: 0;
 }
 
@@ -27,44 +27,33 @@
 }
 
 /* Лента слайдов */
-.slick-track {
+.slick-track{
 	display: flex;
 	align-items: flex-start;
 }
 
 /* Слайд */
-.slick-slide {
-}
+.slick-slide{}
 /* Слайд активный */
-.slick-slide.slick-active {
-}
+.slick-slide.slick-active{}
 /* Слайд основной */
-.slick-slide.slick-current {
-}
+.slick-slide.slick-current{}
 /* Слайд по центру */
-.slick-slide.slick-center {
-}
+.slick-slide.slick-center{}
 
 /* Стрелка */
-.slick-arrow {
-}
+.slick-arrow{}
 /* Стрелка влево */
-.slick-arrow.slick-prev {
-}
+.slick-arrow.slick-prev{}
 /* Стрелка вправо */
-.slick-arrow.slick-next {
-}
+.slick-arrow.slick-next{}
 /* Стрелка не активная */
-.slick-arrow.slick-disabled {
-}
+.slick-arrow.slick-disabled{}
 
 /* Точки */
-.slick-dots {
-}
-.slick-dots li {
-}
-.slick-dots button {
-}
+.slick-dots{}
+.slick-dots li{}
+.slick-dots button{}
 
 /* Конкретный слайдер */
 .slider {
@@ -72,13 +61,13 @@
 	padding: 0px 60px;
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px){
 	.slider {
 		padding: 0px 40px;
 	}
 }
 
-.slider .slick-arrow {
+.slider .slick-arrow{
 	position: absolute;
 	top: 36%;
 	margin: -30px 0px 0px 0px;
@@ -96,28 +85,28 @@
 	top: 42%;
 }
 
-.slider .slick-arrow.slick-prev {
+.slider .slick-arrow.slick-prev{
 	left: 0;
-	background: url("../img/sl-arrow_l.svg") 0 0 / 100% no-repeat;
+	background: url('../img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
 }
 
-.slider .slick-arrow.slick-next {
+.slider .slick-arrow.slick-next{
 	right: 0;
-	background: url("../img/sl-arrow_r.svg") 0 0 / 100% no-repeat;
+	background: url('../img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
 }
 
-.slider .slick-arrow.slick-disabled {
+.slider .slick-arrow.slick-disabled{
 	opacity: 0.2;
 }
 
-.slider .slick-dots {
+.slider .slick-dots{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 50px;
 }
 
-.slider .slick-dots li {
+.slider .slick-dots li{
 	list-style: none;
 	margin: 0px 10px;
 }
@@ -138,11 +127,12 @@
 	padding: 0px 15px;
 }
 
-.slider__item img {
+.slider__item img{
 	max-width: 100%;
 }
 
-.slider__item.slick-center {
+.slider__item.slick-center{
+	
 }
 
 .slider__item > h4 > a {
@@ -160,3 +150,5 @@
 	text-align: center;
 	margin-bottom: 14px;
 }
+
+

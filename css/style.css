@@ -234,17 +234,24 @@ ul:after {
 	font: 900 30px/37px "Montserrat", sans-serif;
 	color: #222720;
 	text-align: center;
-	margin: 50px 0 49px 0;
+}
+
+.popular_bounquet > h2 > a {
+	margin-top: 50px;
+}
+
+.catalog > h2 > a {
+	margin-bottom: 50px;
 }
 
 .button_size {
-	display: inline-block;
+	display: block;
 	width: 136px;
 	height: 37px;
 	font: 600 15px/18px "Montserrat", sans-serif;
 	padding: 10px 33px;
 	text-align: center;
-	margin: 12px 0 50px 110px;
+	margin: 0 auto;
 }
 
 .catalog {
@@ -308,9 +315,9 @@ ul:after {
 	margin-top: 49px;
 	display: flex;
 	align-items: center;
+	margin: 0 auto;
 }
 
-/* ? як забрати маржин */
 .wrapper_inputs {
 	height: 100%;
 	width: 100%;
